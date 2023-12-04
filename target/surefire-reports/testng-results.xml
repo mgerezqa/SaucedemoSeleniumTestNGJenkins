@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-04T17:07:28 ART" name="Regression" finished-at="2023-12-04T17:08:15 ART" duration-ms="46812">
+    <groups>
+      <group name="caseOne">
+        <method signature="SauceDemoTest.CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4135c3b]" name="CP001_LoginSuccesfull" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@776aec5c]" name="CP001_LoginSuccesfull" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" name="CP001_LoginSuccesfull" class="tests.SauceDemoTest"/>
+      </group> <!-- caseOne -->
+      <group name="regression">
+        <method signature="SauceDemoTest.CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4135c3b]" name="CP001_LoginSuccesfull" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP002_LoginPassFail()[pri:0, instance:tests.SauceDemoTest@4135c3b]" name="CP002_LoginPassFail" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP003_LoginInvalidUser()[pri:0, instance:tests.SauceDemoTest@4135c3b]" name="CP003_LoginInvalidUser" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP005_MakePurchase()[pri:0, instance:tests.SauceDemoTest@4135c3b]" name="CP005_MakePurchase" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP004_LoginEmptyFields()[pri:10, instance:tests.SauceDemoTest@4135c3b]" name="CP004_LoginEmptyFields" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@776aec5c]" name="CP001_LoginSuccesfull" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP002_LoginPassFail()[pri:0, instance:tests.SauceDemoTest@776aec5c]" name="CP002_LoginPassFail" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP003_LoginInvalidUser()[pri:0, instance:tests.SauceDemoTest@776aec5c]" name="CP003_LoginInvalidUser" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP005_MakePurchase()[pri:0, instance:tests.SauceDemoTest@776aec5c]" name="CP005_MakePurchase" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP004_LoginEmptyFields()[pri:10, instance:tests.SauceDemoTest@776aec5c]" name="CP004_LoginEmptyFields" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" name="CP001_LoginSuccesfull" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP002_LoginPassFail()[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" name="CP002_LoginPassFail" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP003_LoginInvalidUser()[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" name="CP003_LoginInvalidUser" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP005_MakePurchase()[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" name="CP005_MakePurchase" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP004_LoginEmptyFields()[pri:10, instance:tests.SauceDemoTest@7c7a06ec]" name="CP004_LoginEmptyFields" class="tests.SauceDemoTest"/>
+      </group> <!-- regression -->
+      <group name="smokeTest">
+        <method signature="SauceDemoTest.CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4135c3b]" name="CP001_LoginSuccesfull" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP005_MakePurchase()[pri:0, instance:tests.SauceDemoTest@4135c3b]" name="CP005_MakePurchase" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@776aec5c]" name="CP001_LoginSuccesfull" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP005_MakePurchase()[pri:0, instance:tests.SauceDemoTest@776aec5c]" name="CP005_MakePurchase" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" name="CP001_LoginSuccesfull" class="tests.SauceDemoTest"/>
+        <method signature="SauceDemoTest.CP005_MakePurchase()[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" name="CP005_MakePurchase" class="tests.SauceDemoTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2023-12-04T17:07:28 ART" name="ChromeTest" finished-at="2023-12-04T17:07:41 ART" duration-ms="12829">
+      <class name="tests.SauceDemoTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@4135c3b]" started-at="2023-12-04T17:07:28 ART" name="setup" finished-at="2023-12-04T17:07:31 ART" duration-ms="3499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4135c3b]" started-at="2023-12-04T17:07:33 ART" name="CP001_LoginSuccesfull" data-provider="DatosInicioSesionValido" finished-at="2023-12-04T17:07:34 ART" duration-ms="1664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP001_LoginSuccesfull -->
+        <test-method signature="CP002_LoginPassFail()[pri:0, instance:tests.SauceDemoTest@4135c3b]" started-at="2023-12-04T17:07:34 ART" name="CP002_LoginPassFail" finished-at="2023-12-04T17:07:35 ART" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP002_LoginPassFail -->
+        <test-method signature="CP003_LoginInvalidUser()[pri:0, instance:tests.SauceDemoTest@4135c3b]" started-at="2023-12-04T17:07:35 ART" name="CP003_LoginInvalidUser" finished-at="2023-12-04T17:07:36 ART" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP003_LoginInvalidUser -->
+        <test-method signature="CP005_MakePurchase()[pri:0, instance:tests.SauceDemoTest@4135c3b]" started-at="2023-12-04T17:07:36 ART" name="CP005_MakePurchase" finished-at="2023-12-04T17:07:39 ART" duration-ms="3618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP005_MakePurchase -->
+        <test-method signature="CP004_LoginEmptyFields()[pri:10, instance:tests.SauceDemoTest@4135c3b]" started-at="2023-12-04T17:07:39 ART" name="CP004_LoginEmptyFields" finished-at="2023-12-04T17:07:40 ART" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP004_LoginEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@4135c3b]" started-at="2023-12-04T17:07:40 ART" name="tearDown" finished-at="2023-12-04T17:07:41 ART" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-12-04T17:07:41 ART" name="FireFox" finished-at="2023-12-04T17:07:59 ART" duration-ms="18402">
+      <class name="tests.SauceDemoTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@776aec5c]" started-at="2023-12-04T17:07:41 ART" name="setup" finished-at="2023-12-04T17:07:51 ART" duration-ms="10121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@776aec5c]" started-at="2023-12-04T17:07:51 ART" name="CP001_LoginSuccesfull" data-provider="DatosInicioSesionValido" finished-at="2023-12-04T17:07:53 ART" duration-ms="1551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP001_LoginSuccesfull -->
+        <test-method signature="CP002_LoginPassFail()[pri:0, instance:tests.SauceDemoTest@776aec5c]" started-at="2023-12-04T17:07:53 ART" name="CP002_LoginPassFail" finished-at="2023-12-04T17:07:53 ART" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP002_LoginPassFail -->
+        <test-method signature="CP003_LoginInvalidUser()[pri:0, instance:tests.SauceDemoTest@776aec5c]" started-at="2023-12-04T17:07:53 ART" name="CP003_LoginInvalidUser" finished-at="2023-12-04T17:07:54 ART" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP003_LoginInvalidUser -->
+        <test-method signature="CP005_MakePurchase()[pri:0, instance:tests.SauceDemoTest@776aec5c]" started-at="2023-12-04T17:07:54 ART" name="CP005_MakePurchase" finished-at="2023-12-04T17:07:57 ART" duration-ms="3455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP005_MakePurchase -->
+        <test-method signature="CP004_LoginEmptyFields()[pri:10, instance:tests.SauceDemoTest@776aec5c]" started-at="2023-12-04T17:07:57 ART" name="CP004_LoginEmptyFields" finished-at="2023-12-04T17:07:58 ART" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP004_LoginEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@776aec5c]" started-at="2023-12-04T17:07:58 ART" name="tearDown" finished-at="2023-12-04T17:07:59 ART" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTest -->
+    </test> <!-- FireFox -->
+    <test started-at="2023-12-04T17:07:59 ART" name="Edge" finished-at="2023-12-04T17:08:15 ART" duration-ms="15555">
+      <class name="tests.SauceDemoTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" started-at="2023-12-04T17:07:59 ART" name="setup" finished-at="2023-12-04T17:08:07 ART" duration-ms="7284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CP001_LoginSuccesfull(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" started-at="2023-12-04T17:08:07 ART" name="CP001_LoginSuccesfull" data-provider="DatosInicioSesionValido" finished-at="2023-12-04T17:08:08 ART" duration-ms="1884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP001_LoginSuccesfull -->
+        <test-method signature="CP002_LoginPassFail()[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" started-at="2023-12-04T17:08:08 ART" name="CP002_LoginPassFail" finished-at="2023-12-04T17:08:09 ART" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP002_LoginPassFail -->
+        <test-method signature="CP003_LoginInvalidUser()[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" started-at="2023-12-04T17:08:09 ART" name="CP003_LoginInvalidUser" finished-at="2023-12-04T17:08:10 ART" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP003_LoginInvalidUser -->
+        <test-method signature="CP005_MakePurchase()[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" started-at="2023-12-04T17:08:10 ART" name="CP005_MakePurchase" finished-at="2023-12-04T17:08:14 ART" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP005_MakePurchase -->
+        <test-method signature="CP004_LoginEmptyFields()[pri:10, instance:tests.SauceDemoTest@7c7a06ec]" started-at="2023-12-04T17:08:14 ART" name="CP004_LoginEmptyFields" finished-at="2023-12-04T17:08:14 ART" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP004_LoginEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@7c7a06ec]" started-at="2023-12-04T17:08:14 ART" name="tearDown" finished-at="2023-12-04T17:08:15 ART" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTest -->
+    </test> <!-- Edge -->
+  </suite> <!-- Regression -->
+</testng-results>

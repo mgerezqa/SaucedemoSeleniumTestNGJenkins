@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="smokeTest">
+    <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.SauceDemoTest">
+        <methods>
+          <exclude name="CP002_LoginPassFail"></exclude>
+          <exclude name="CP003_LoginInvalidUser"></exclude>
+          <exclude name="CP004_LoginEmptyFields"></exclude>
+        </methods>
+      </class>
+    </classes>
+  </test> 
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Saucedemo_TestAutomationFramework by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-sauce,case_one(failed)">
+    <groups>
+      <run>
+        <include name="sauce"/>
+        <include name="case_one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.SauceDemoTest">
+        <methods>
+          <include name="CP005_MakePurchase"/>
+          <include name="CP002_LoginPassFail"/>
+          <include name="CP004_LoginEmptyFields"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="CP001_LoginSuccesfull"/>
+          <include name="CP003_LoginInvalidUser"/>
+        </methods>
+      </class> <!-- tests.SauceDemoTest -->
+    </classes>
+  </test> <!-- GRP-sauce,case_one(failed) -->
+</suite> <!-- Failed suite [Saucedemo_TestAutomationFramework by groups] -->

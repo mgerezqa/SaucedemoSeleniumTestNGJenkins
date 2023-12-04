@@ -1,0 +1,14 @@
+pages\BasePage.class
+pages\LoginPage.class
+utilities\CapturaEvidencia.class
+pages\CheckOutStepOnePage.class
+pages\CheckOutCompletePage.class
+pages\CartPage.class
+utilities\ReportManager.class
+utilities\ConfigFile.class
+utilities\ScreenCapture.class
+pages\ProductPage.class
+utilities\DriverManager.class
+pages\CheckOutStepTwoPage.class
+tests\SauceDemoTest.class
+utilities\DatosExcel.class
