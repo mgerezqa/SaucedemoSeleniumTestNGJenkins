@@ -26,6 +26,7 @@ import utilities.DriverManager;
 import utilities.ReportManager;
 import utilities.ScreenCapture;
 
+//Comentario parar borrar
 public class SauceDemoTest {
 	WebDriver driver ;
 	ReportManager report = new ReportManager();
